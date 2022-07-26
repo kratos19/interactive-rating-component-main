@@ -1,0 +1,133 @@
+body {
+  background-color: hsl(216, 12%, 8%);
+  color: hsl(0, 0%, 100%);
+  padding: 0 22px;
+  font-family: 'Overpass';
+}
+
+/* Rating card start */
+
+.card-container {
+  background-color: hsl(213, 19%, 18%);
+  max-width: 375px;
+  margin: 154px auto;
+  padding: 24px 26px 35px 26px;
+  border-radius: 15px;
+}
+
+.rating-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.card-logo img {
+  background-color: hsla(217, 12%, 63%, 0.1);
+  padding: 10px;
+  border-radius: 50%;
+  margin-bottom: 22px;
+}
+
+.card-text h1,
+p {
+  margin: 0;
+}
+
+.card-text h1 {
+  margin-bottom: 23px;
+  font-family: 'Overpass';
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.card-text p {
+  margin-bottom: 31px;
+  color: hsl(217, 12%, 63%);
+  font-family: 'Overpass';
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.rating-number a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+.rating-number {
+  background-color: hsla(217, 12%, 63%, 0.1);
+  padding: 8px 14px;
+  border-radius: 50%;
+  margin-bottom: 23px;
+  font-family: 'Overpass';
+}
+
+.four-star {
+  background-color: hsl(217, 12%, 63%);
+}
+
+.five-star {
+  background-color: #ff7512;
+}
+
+.rating-submit {
+  text-align: center;
+  padding: 17px 100px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-family: 'Overpass';
+  font-weight: 400;
+  background-color: #ff7512;
+  color: hsl(0, 0%, 100%);
+  letter-spacing: 1px;
+  cursor: pointer;
+  border: none;
+}
+
+.rating-submit:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: #ff7512;
+}
+
+.rating-button {
+  display: flex;
+  justify-content: center;
+}
+
+/* Rating card end */
+
+/* Thank you card start */
+
+.thank-you-container {
+  background-color: hsl(213, 19%, 18%);
+  padding: 24px 26px 35px 26px;
+  border-radius: 15px;
+  font-family: 'Overpass';
+  max-width: 375px;
+  margin: 154px auto;
+}
+
+.thank-you-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.thank-you-rating-selected {
+  padding: 0 30px;
+}
+
+.thank-you-rating-selected p {
+  background-color: hsla(217, 12%, 63%, 0.1);
+  color: #ff7512;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.thank-you-text {
+  text-align: center;
+}
+
+.thank-you-text p {
+  color: hsl(217, 12%, 63%);
+}

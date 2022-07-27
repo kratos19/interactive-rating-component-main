@@ -61,11 +61,11 @@ p {
   font-family: 'Overpass';
 }
 
-.four-star {
+.rating-number:hover {
   background-color: hsl(217, 12%, 63%);
 }
 
-.five-star {
+.rating-number.active {
   background-color: #ff7512;
 }
 
@@ -104,6 +104,7 @@ p {
   font-family: 'Overpass';
   max-width: 375px;
   margin: 154px auto;
+  display: none;
 }
 
 .thank-you-image {
